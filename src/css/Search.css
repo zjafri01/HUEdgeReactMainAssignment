@@ -1,0 +1,19 @@
+.search{
+    display: inline;
+}
+
+.searchImage{
+    height: 10px;
+    width: auto;
+}
+
+.searchButton{
+    background-color: orange;
+    border-color: orange;
+    height: 100%;
+}
+
+.searchInput{
+    width: 86%;
+    height: 80%;
+}

@@ -1,0 +1,8 @@
+*{
+    font-size: 15px;
+}
+
+.cartItems{
+    overflow: scroll;
+    height: 280px;
+}

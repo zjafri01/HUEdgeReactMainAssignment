@@ -1,0 +1,40 @@
+.courses{
+    overflow: scroll;
+    height: 460px;
+}
+
+.course{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 45% 22% 10.5% 5.5% 12% 5%;
+    box-shadow: 1px 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.addToCartButton{
+    height: 30px;
+    align-self: center;
+    width: 85%;
+    justify-self: right;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    border-color: orange;
+
+}
+
+.exploreButton{
+    height: 30px;
+    align-self: center;
+    margin-left: 15%;
+    margin-right: 5%;
+    background-color: white;
+    border-color: white;
+}
+
+.star{
+    width: 15px;
+    height: auto;
+}

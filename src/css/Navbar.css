@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f3;
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: #f1f1f3;
+    width: 50px;
+}
+
+li a {
+    display: block;
+    color: rgb(73, 71, 71);
+    text-align: center;
+    padding: 14px 16px;
+    width: auto;
+    text-decoration: none;
+    transition: all 1s ease 0s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+
+li img{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+/* Change the link color to #111 (black) on hover */
+/* li a:hover {
+    color: rgb(77, 244, 244);
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rightlink{
+    float: right;
+    color: red;
+}
+
+.profileIcon{
+    float: right;
+    margin-top: 4px;
+    height: 30px;
+    width: auto;
+}

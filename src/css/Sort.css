@@ -1,0 +1,15 @@
+.SortContainer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.grid--item {
+    font-size: 30px;
+}
+
+.coursePriceButton{
+    height: 30px;
+    background-color: white;
+    font-size: 12px;
+    border-color: wheat;
+}
