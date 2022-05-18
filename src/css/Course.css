@@ -1,0 +1,45 @@
+.courseDiv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: black;
+    color: white;
+    margin-left: -9%;
+    margin-right: -9%;
+}
+
+.courseDetail{
+    margin-left: 19%;
+    margin-right: 9%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#topic{
+    width: 15%;
+    margin-right: 2%;
+}
+
+.courseDescriptionDiv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.courseDetails{
+    margin-left: 4%;
+    margin-right: 9%;
+}
+
+.courseOriginalPrice{
+    text-decoration: line-through;
+    font-size: 9px;
+    color: gray;
+}
+
+.imgId{
+    background-color: black;
+    border: white;
+    border-style: solid;
+    margin-top: -30%;
+    height: 120%;
+}

@@ -5,7 +5,7 @@ import Cart from './components/Cart';
 import Profile from './components/Profile';
 import WishList from './components/WishList';
 import Footer from './components/Footer.js';
-import { Fragment } from 'react';
+import { useState } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,8 +13,10 @@ import {
   Navigate,
   Link
 } from "react-router-dom";
+import Course from './components/Course';
 
 function App() {
+  
   return (
     <div className="App">
       <Router>
@@ -27,6 +29,7 @@ function App() {
             <Route exact path="/myprofile" component={Profile} />
             <Route exact path="/mycart" component={Cart} />
             <Route exact path="/mywishlist" component={WishList} />
+            <Route exact path="/coursedetail/:id" component={Course} />
           </Switch>
         </div>
 

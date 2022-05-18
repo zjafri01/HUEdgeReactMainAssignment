@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
 .courses{
     overflow: scroll;
     height: 460px;
@@ -6,10 +8,11 @@
 .course{
     padding: 1%;
     display: grid;
-    grid-template-columns: 45% 22% 10.5% 5.5% 12% 5%;
+    grid-template-columns: 8% 36% 22% 11% 6% 12% 5%;
     box-shadow: 1px 4px 8px 0 rgba(0,0,0,0.2);
     margin-bottom: 10px;
     border-radius: 5px;
+    height: 15%;
 }
 
 .addToCartButton{
@@ -18,11 +21,11 @@
     width: 85%;
     justify-self: right;
     font-size: 10px;
-    color: black;
+    color: white;
     font-weight: bold;
-    background-color: orange;
-    border-color: orange;
-
+    background-color: rgb(255, 106, 0);
+    border-color: rgb(255, 106, 0);
+    border-radius: 5px;
 }
 
 .exploreButton{
@@ -32,9 +35,52 @@
     margin-right: 5%;
     background-color: white;
     border-color: white;
+    border-radius: 5px;
 }
 
 .star{
     width: 15px;
     height: auto;
+}
+
+.courseTitle{
+    text-align: left;
+    align-self: center;
+    width:"90%";
+    padding-right: 5%;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.courseAuthor{
+    align-self: center;
+    justify-self: left;
+    font-size: 13px;
+}
+
+.courseDiscountedPrice{
+    align-self: center;
+    font-weight: bold;
+}
+
+.courseOriginalPrice{
+    align-self: center;
+    text-decoration: line-through;
+    font-size: 9px;
+    color: gray;
+}
+
+.courseIcon{
+    background-color:#f1f1f3;
+    margin-right: 10%;
+}
+
+.keywords{
+    background-color: rgb(255, 106, 0);
+    border-color: rgb(255, 106, 0);
+    font-size: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
 }

@@ -27,9 +27,14 @@
 }
 
 .sort-search-item {
+    
+}
+
+.sort-search-item-label{
     padding: 10px;
     font-size: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 .headline {
