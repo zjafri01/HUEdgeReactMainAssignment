@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '/Users/zjafri/Desktop/HUE_React/finalassignment/src/css/Navbar.css'
-import logo from '/Users/zjafri/Desktop/HUE_React/finalassignment/src/assets/Hashedin.png'
-import profileIcon from '/Users/zjafri/Desktop/HUE_React/finalassignment/src/assets/user.png'
-import cartIcon from '/Users/zjafri/Desktop/HUE_React/finalassignment/src/assets/carts.png'
+import '../css/Navbar.css'
+import logo from '../assets/Hashedin.png'
+import profileIcon from '../assets/user.png'
+import cartIcon from '../assets/carts.png'
 //import styles from '/css/Navbar.css'
 //import styles from '/Users/zjafri/Desktop/HUE_React/finalassignment/src/css/Navbar.css'
 

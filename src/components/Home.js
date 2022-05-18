@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useParams } from 'react-router';
 import React, { useEffect, useState } from 'react';
-import '/Users/zjafri/Desktop/HUE_React/finalassignment/src/css/Home.css';
+import '../css/Home.css';
 import starActivated from '../assets/star_activated.png';
 
 function Home() {
