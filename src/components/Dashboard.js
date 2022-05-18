@@ -4,7 +4,7 @@ import Home from './Home';
 import Numerations from './Numerations';
 import Search from './Search';
 import Sort from './Sort';
-import '../assets/css/Dashboard.css';
+import '../css/Dashboard.css';
 
 function Dashboard() {
   return (
