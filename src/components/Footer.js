@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/zjafri/Desktop/HUE_React/finalassignment/src/css/Footer.css'
+import '../css/Footer.css'
 
 function Footer() {
   return (
